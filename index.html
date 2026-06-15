@@ -1,126 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--Hello World! lol. Hi, world. It's Nnamdi :D-->
+<!--Hello again, world. It's still Nnamdi :D-->
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Nnamdi Ojibe, Ojibe, BLACC, Software Engineering, LGBT in Tech, Black in Tech, LGBT, Tech, Black, Nigerian, Dance, Computer Science">
+  <meta name="description" content="Nnamdi Kenneth C. Ojibe — Lead Product Engineer at the Collective Intelligence Project, working on AI safety in New York.">
   <meta name="author" content="Nnamdi Ojibe">
-
   <title>Nnamdi Ojibe</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/resume.min.css" rel="stylesheet">
-
-  <!--Devicon-->
-  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-
-
+  <style>
+    :root {
+      --ink: #111111;
+      --muted: #6a6a6a;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      background: #ffffff;
+      color: var(--ink);
+      font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 1.05rem;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      padding: 5rem 1.5rem;
+    }
+    main {
+      max-width: 580px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      margin: 0 0 1.75rem;
+    }
+    p { margin: 0 0 1.4rem; }
+    .tagline {
+      font-size: 1.15rem;
+      margin: 1.75rem 0 1.4rem;
+    }
+    .tagline a { font-weight: 600; }
+    .muted { color: var(--muted); }
+    a {
+      color: var(--ink);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+      text-decoration-thickness: 1px;
+    }
+    a:hover { color: var(--muted); }
+    h2 {
+      font-size: 0.78rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin: 2.5rem 0 0.9rem;
+    }
+    ul.proud {
+      margin: 0;
+      padding-left: 1.1rem;
+    }
+    ul.proud li { padding: 0.2rem 0; }
+    ul.cv {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    ul.cv li { padding: 0.45rem 0; }
+    ul.cv .row {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    ul.cv .role { font-weight: 500; }
+    ul.cv .role span { font-weight: 400; color: var(--muted); }
+    ul.cv .year { color: var(--muted); white-space: nowrap; }
+    ul.cv .desc {
+      color: var(--muted);
+      font-size: 0.95rem;
+      padding-left: 1.4rem;
+      text-indent: -1.4rem;
+      margin-top: 0.1rem;
+    }
+    ul.cv .desc::before {
+      content: "\21B3";
+      color: #b8b8b8;
+      margin-right: 0.45rem;
+    }
+    @media (max-width: 480px) {
+      ul.cv .row { flex-direction: column; gap: 0.1rem; }
+    }
+    ul.says {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    ul.says li {
+      border-left: 2px solid #e6e6e6;
+      padding: 0.15rem 0 0.15rem 0.9rem;
+      margin: 0.7rem 0;
+      font-style: italic;
+    }
+    .links {
+      margin: 0.6rem 0 0;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+    .links a {
+      text-decoration: none;
+      font-weight: 500;
+      color: var(--ink);
+    }
+    .links a:hover { color: var(--muted); }
+    .links span { margin: 0 0.55rem; color: #c9c9c9; }
+  </style>
 </head>
 
-<body id="page-top">
+<body>
+  <main>
+    <h1>Nnamdi Kenneth C. Ojibe</h1>
+    <p class="muted" style="margin-top:-1.25rem;">Based in New York, NY (travels to SF)</p>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Nnamdi Ojibe</span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/Nnamdi.jpeg" alt="">
-      </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">Interests & Organizations</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-          </li>
-      </ul>
-    </div>
-  </nav>
+    <p class="links">
+      <a href="https://www.linkedin.com/in/nojibe/">LinkedIn</a><span>·</span><a href="https://github.com/nojibe">GitHub</a><span>·</span><a href="mailto:nnojibe@gmail.com">Email</a><span>·</span><a href="https://www.goodreads.com/user/show/146240053-nnamdi-ken-ojibe">Goodreads</a>
+    </p>
 
-  <div class="container-fluid p-0">
+    <p class="tagline">
+      <strong>Hi, I'm Ken.</strong> <strong>Lead Product Engineer</strong> at the
+      <strong><a href="https://cip.org/">Collective Intelligence Project</a></strong>.
+    </p>
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-      <div class="w-100">
-        <h1 class="mb-0">Nnamdi
-          <span class="text-primary">Ojibe</span>
-        </h1>
-        <div class="subheading mb-5"> New York, NY | Washington, DC 
-          <a href="mailto:name@email.com">nojibe@gmu.edu</a>
-        </div>
-        <p class="lead mb-5">Hello, I am a computer science major with a minor in design thinking at George Mason University. I have a passion for building smart solutions that improve governance and quality of life. Explore the links below!</p>
+    <p>
+      I work on AI safety &mdash; building tools and processes that help
+      steer transformative AI toward better, more accountable outcomes for everyone.
+    </p>
+
+    <p>
+      Outside of work, I lift, I dance, and I'm always
+      <a href="https://www.goodreads.com/user/show/146240053-nnamdi-ken-ojibe">reading something</a>.
+      You can also find me at galleries around the city &mdash; the
+      <a href="https://www.frick.org/">Frick</a>,
+      <a href="https://bfa.com/photos/search?people=kenneth-ojibe">and so on</a>.
+    </p>
+
+    <h2>A few things I'm proud of</h2>
+    <ul class="proud">
+      <li>Co-founded and co-chair the Young Patrons Council at <a href="https://www.graciemansion.org/about">Gracie Mansion</a></li>
+      <li>Co-authored a sociology paper submitted to the <em>American Journal of Sociology</em> (2025)</li>
+      <li>U.S. Presidential Volunteer Service Award (2015, 2016)</li>
+    </ul>
+
+    <h2>Experience</h2>
+    <ul class="cv">
+      <li>
         <div class="row">
-          <div class="col-sm-3 ">
-             LinkedIn  <div class="social-icons">
-          <a href="https://www.linkedin.com/in/nojibe/">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          </div>
+          <span class="role">Lead Product Engineer, <span>Collective Intelligence Project</span></span>
+          <span class="year">2025 &ndash; present</span>
         </div>
-          <div class="col-sm-3">
-             Personal Site <div class="social-icons">
-          <a href="http://www.kennethojibe.com">
-            <i class="fa-duotone fa-browser"></i>
-          </a>
-          </div>
+        <div class="desc">Building tools and processes that steer transformative AI toward safer, more accountable outcomes.</div>
+      </li>
+      <li>
+        <div class="row">
+          <span class="role">Software Engineer, <span><a href="https://recidiviz.org/">Recidiviz</a> (YC '19)</span></span>
+          <span class="year">2023 &ndash; 2025</span>
         </div>
-
-        <div class="col-sm-3 ">
-          GitHub  <div class="social-icons">
-          <a href="https://github.com/theAudacity">
-            <i class="fab fa-github"></i> 
-          </a>
+        <div class="desc">Built and shipped full-stack features that helped thousands of justice-impacted individuals.</div>
+      </li>
+      <li>
+        <div class="row">
+          <span class="role">Technical Project Management Intern, <span>The Walt Disney Company</span></span>
+          <span class="year">2021 &ndash; 2022</span>
         </div>
+        <div class="desc">Helped coordinate a $126M studio decommissioning, owning dashboards and vendor relationships.</div>
+      </li>
+      <li>
+        <div class="row">
+          <span class="role">Software Engineer, <span>Google Summer of Code &middot; City of Boston</span></span>
+          <span class="year">2021</span>
         </div>
-        <div class="col-sm-3 ">
-            Resume  <div class="social-icons">
-           <a href="https://docs.google.com/document/d/12SmbBDUqAHbKZpkFqnZYetN3Sv6D-60_c7OQmnSsY5U/edit?usp=sharing">
-            <i class="fas fa-file"></i>
-          </a>
+        <div class="desc">Designed and built a solar calculator for the city's Office of Urban Mechanics.</div>
+      </li>
+      <li>
+        <div class="row">
+          <span class="role">Software Engineer Intern, <span><a href="https://www.nytimes.com/">The New York Times</a></span></span>
+          <span class="year">2019</span>
         </div>
-        </div>
-        </div>
-    </section>
+        <div class="desc">Authored key endpoints in Go and Java, and helped ship a "magic link" login that improved user retention.</div>
+      </li>
+    </ul>
 
-    
+    <h2>What people say</h2>
+    <ul class="says">
+      <li>&ldquo;Has a lot of energy at 5am.&rdquo;</li>
+      <li>&ldquo;Very thoughtful, collaborative, organized, wise, and energetic.&rdquo;</li>
+      <li>&ldquo;Walking around with Ken is like walking around with a mayor.&rdquo;</li>
+    </ul>
 
-  </div>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
-
+    <h2>Things I'm known to say</h2>
+    <ul class="says">
+      <li>&ldquo;Everyone is my friend until proven otherwise.&rdquo;</li>
+      <li>&ldquo;You get the energy you put in.&rdquo;</li>
+      <li>&ldquo;80/20.&rdquo;</li>
+    </ul>
+  </main>
 </body>
-
 </html>
